@@ -3,7 +3,7 @@ console.log(`Number of categories: ${categoriesQuantity.length}`);
 
 
 const item = [...document.querySelectorAll('.item h2')];
-console.log(item);
+// console.log(item);
 
 const liRefs = document.querySelectorAll('.item li');
 console.log(`Elements: ${liRefs.length}`);
