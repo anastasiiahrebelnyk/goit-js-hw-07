@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    align-content: center;
+
+}
+
+.js-img-styles {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.js-list {
+    list-style: none;
+    width: calc((100% - 2 * 20px) / 3);
+    align-self: center;
+}
