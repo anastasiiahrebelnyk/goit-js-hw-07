@@ -26,13 +26,13 @@ const images = [
 ];
 
 
-const divContainer = document.querySelector("ul");
-divContainer.insertAdjacentHTML('afterbegin', '<div class="container"></div>');
+const ulEl = document.querySelector("ul");
+// divContainer.insertAdjacentHTML('afterbegin', '<div class="container"></div>');
 
-const imagesContainer = document.querySelector("div");
+// const imagesContainer = document.querySelector("div");
 const markup = images
   .map(item => `<li class = "js-list"> <img src = "${item.url}" alt = "${item.alt}" class = "js-img-styles"/> </li>` )
   .join(" ");
-imagesContainer.insertAdjacentHTML('beforeend', markup);
+ulEl.insertAdjacentHTML('beforeend', markup);
 
 
