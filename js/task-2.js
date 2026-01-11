@@ -26,7 +26,7 @@ const images = [
 ];
 
 
-const ulEl = document.querySelector("ul");
+const ulEl = document.querySelector(".gallery");
 // divContainer.insertAdjacentHTML('afterbegin', '<div class="container"></div>');
 
 // const imagesContainer = document.querySelector("div");
